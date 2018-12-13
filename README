@@ -1,0 +1,27 @@
+NewsArticlesXMLEncoding
+Contention and criticism regarding the role of the media in how it reports on certain issues if rife. Both sides of the divide endlessly criticize mainstream media outlets for how they cover controversial issues. With so much material existing on one topic and any derivative topics, interested parties can benefit by the encoding and processing of news articles with XML and XSLT. XML and its derivative languages XSL and HTML are powerful tools for helping to keep organized, analyze and output in webpages and publishing, trends and information pertinent to how a story both unfolds and is covered by different news sources, desks and authors.
+
+Contents
+NewsArticles.dtd
+NewsArticles_xml_tree_structure_main_map.pdf
+NewsArticles_xml_tree_structure_third-fourth_level_map_.pdf
+Data Format
+The DTD was developed as a means to encode to extract granular information about the ways news articles, specifically about international politics are structured. The DTD can and should be expanded to fit the needs of your project.
+
+The root element is articles, within which each article is contained in an article tag.
+
+The article has four main parts. The 'head', like its html counterpart and 'version', has metadata about the article, including the publication, source, download date, edition if it was listed, and word count.
+The 'heading' tag captures the heading headline or title of the article, the 'byline' (author, date published and place from which the author reported), and the 'desk'.
+The 'bodytext' tag contains the lead, which is the summarizing sentence of the main point of the article found in many newspaper articles. Each paragraph is contained in a p tag and then each sentence in the article is contained in a 'sentence' tag; images and section headings, if they exist, are also contained in the 'bodytext' tag.
+Finally, a 'notes' tag contains mandatory copyright information, attributions to other authors, as well as corrections, which are common in news reporting.
+
+The 'sentence' tag (which I refer to as zero-level) and its children (first-level) hold the crux of the content. There is a #REQUIRED attribute of topic with defined values one must choose, these can be found on the DTD for 'sentence'. This attribute is mandatory in order to get a better feel of the style used by the author to construct the article and the topic captured in the second-level tags.
+
+The sentence tag has six children tags: •	'caption' used for images •	'phenomenon' for phenomena being discussed, which could include statistics, violence, nationalism, religion or others.
+•	'statement' used for statements made by someone, with or without a direct quote. •	'reaction' used for reactions and includes many of its .
+•	'event' used for events, which could include meetings or be as involved as the Cold War or the end of the British mandate in Palestine •	'cause-effect' used for causal relationships between things. However, this tag is a container for its children cause, effect and descriptor, which is used as a child of nearly all, tags. Sometimes you will find some sentences with only one of the two main children tags.
+•	'policy-position' captures if a policy or position is being discussed. It also has required attributes of entityID to capture the entity whose policy is being referenced. Because the original project related to articles about the US government policy, entityID=”usa” are plentiful in this tag as well as others throughout the document.
+
+Third- and fourth-level tags are nested in the second-level tags; in some instances, lower level tags can contain or be contained by their siblings. The creation of third-level elements allows for the referencing of content that constitute the object of the sentence. By creating a tertiary level you can capture more succinctly objects in the sentences, for instance when an entity (ie a country or its representative) is referring to a different policy, issue or another entity in a statement or more than one issue is brought up, such as the centrality of the issue of the status of Jerusalem to the wider conflict.
+
+There are four fourth-level tags that capture distinct details, such as dates, times, and names of people and individuals. Finally, because I am interested in uncovering patterns in how things are described, by either the authors or by different entities referenced, I allowed the 'descriptor' tag to be nested in nearly every element.
