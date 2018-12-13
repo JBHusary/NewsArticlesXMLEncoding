@@ -1,0 +1,187 @@
+
+<!ELEMENT articles (article+)>
+
+<!ELEMENT article (head+, heading+, bodytext+, notes+)>
+<!ATTLIST article article-type CDATA  #REQUIRED
+                             ID CDATA #REQUIRED>                                                                
+
+<!ELEMENT head (publication+,source+, access-date+, edition?, wordcount*)>
+
+<!--publication element: name of publication-->
+<!ELEMENT publication (#PCDATA)>       
+ 
+ <!--version element: could be UK, US, or other international versions.  If the project is to be expanded, this could make for very interesting source of analysis-->
+   <!ATTLIST publication pub-title CDATA #REQUIRED
+                                        version CDATA #IMPLIED>                                                                                                          
+
+ <!--source element: the place (online or in paper that is being used as the source document-->
+<!ELEMENT source (#PCDATA |url)*>                                                                                                                                  
+   <!ELEMENT url (#PCDATA)>
+       <!ATTLIST source source-type (online|print) #REQUIRED>
+
+<!--access-date element captures the date the article was accessed online-->
+<!ELEMENT access-date (date+)>                                                 
+<!ELEMENT date (#PCDATA|year|month|num-day|weekday|descriptor)*>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT num-day (#PCDATA)>
+<!ELEMENT weekday (#PCDATA)>
+  <!ATTLIST weekday dayOfWeek (Mon|Tues|Weds|Thu|Fri|Sat|Sun|today|yesterday|tomorrow) #REQUIRED>
+       
+<!--to keep date formats consistent, date-type attribute specifies the date article was accessed online, date of publication, or dates cited in the text-->
+<!ATTLIST date date-type (accessed|published|in-text) #REQUIRED                                       
+                              yyyy CDATA #IMPLIED
+                              mm CDATA #IMPLIED
+                              dd CDATA #IMPLIED>                                                                                                                  
+
+<!-- edition element: to note which edition of the publication the article came from, this is usually morning or evening-->
+<!ELEMENT edition (#PCDATA)>                                                                                                                                           
+  <!ATTLIST edition time CDATA #IMPLIED>
+
+<!--wordcount element: captures the number of words in the body of the text of the article, not including information captured in the heading, or captions of any images; this can be used to find articles more or less than a certain wordcount-->
+<!ELEMENT wordcount (#PCDATA)>                                                                                                                                      
+   <!ATTLIST wordcount total CDATA #REQUIRED>
+
+<!ELEMENT heading (headline*,byline*,desk*)>
+<!ELEMENT headline (#PCDATA|sentence)*>
+
+<!--src attribute directs to the pdf being used in the analysis-->
+  <!ATTLIST headline src CDATA #IMPLIED>
+  
+<!--desk element: to note journalistic department that was dispatched to cover the story and the category of news under which the report would fall-->
+<!ELEMENT desk (#PCDATA)>                                                     <!--deskID attribute codes can be found on the authoritylist.xlsx  found at ".//authoritylist.xlsx"-->                           
+  <!ATTLIST desk deskID CDATA #REQUIRED>
+
+<!ELEMENT byline (author*,article-date+,where*)>
+<!--author can be listed 0 or more times, as some articles have more than one author or none listed; -->
+<!--article-date will be singular and is pushed to be mandatory; and where indicates the location from where each author writes-->
+
+<!ELEMENT author (#PCDATA|company|fullname|lastname|firstname|jobtitle)*>
+
+<!--authorID can be used for finding all articles that have been written by an author; codes can be found on the authoritylist.xlsx  found at ".//authoritylist.xlsx"-->
+  <!ATTLIST author authorID CDATA #IMPLIED>                                    
+             
+   <!ELEMENT article-date (date+,time?)>
+   <!ELEMENT time (#PCDATA)>
+        <!ATTLIST time type (military|standard) #IMPLIED
+                                  timezone CDATA #IMPLIED>
+                                
+<!ELEMENT bodytext (#PCDATA|lead|p|image|section-heading)*>
+ <!ELEMENT lead (#PCDATA|p)*>
+ <!ELEMENT p (#PCDATA|sentence)*>  
+
+<!--for those articles that have a headings to their sections-->               
+ <!ELEMENT section-heading (#PCDATA)>          
+
+<!--sentence element: signals the topic of the sentence contained in this tag.  Only one sentence per sentence element, ie anything that ends with a full stop-->    
+ <!ELEMENT sentence (#PCDATA|caption|phenomenon|statement|policy-position|reaction|event|cause-effect)*>   
+ 
+ <!--sentence attributes: attributes  have been specified to signal the style being used by the author of the article; title is used for the headline-->
+   <!ATTLIST sentence topic (fact|speculation|observation|opinion|summary|caption|query|statement|analysis|title) #REQUIRED>        
+ 
+ <!ELEMENT phenomenon (#PCDATA|entity|where|descriptor|when|issue)*>
+ <!--entityID refers to the entity impacted by that statistic-->
+   <!ATTLIST phenomenon entityID CDATA #IMPLIED
+                                            type CDATA #IMPLIED>                                                                                                          
+<!ELEMENT statement (#PCDATA|event|entity|when|where|descriptor|direct-quote|policy|position|cause|effect|name|person)*> 
+  <!ATTLIST statement entityID CDATA #REQUIRED>
+
+<!ELEMENT direct-quote (#PCDATA|policy|position|entity|when|where|descriptor|cause|effect)*>
+
+<!--the policy-position element is an element that can only be found within the sentence element, to signal the author is discussing a policy or position-->
+<!ELEMENT policy-position (#PCDATA|issue|entity|when|where|descriptor|event|person|name|policy|position)*>                               <!-- policy is something that is implementable, position is an opinion or position; name and person refer to the entity making the policy, noted by entityID attribute; entity refers to other entities impacted by the policy, issueID attribute relates to the issue the policy/position address; policy and position tags can also be found under tags at the same level of policy-position-->
+  <!ATTLIST policy-position entityID CDATA #REQUIRED                                                                                       option (policy|position) #REQUIRED
+                                             issueID CDATA #REQUIRED>    
+<!ELEMENT policy (#PCDATA|descriptor|entity|where|when|name|person|issue)*>                                                                                          <!--  ie an action that is taken; name and person are used to describe the entity who holds the policy in question; entity is used to describe other entities possibly impacted by the policy; the issue tag relates to a different issue not listed in the issueID attribute-->
+  <!ATTLIST policy entityID CDATA #IMPLIED
+                               issueID CDATA #REQUIRED>
+                               
+<!ELEMENT position (#PCDATA|descriptor|entity|where|when|name|person|issue)*>                                                                                        <!-- name and person are used to describe the entity who holds the policy in question; entity is used to describe other entities possibly impacted by the policy; the issue tag relates to a different issue not listed in the issueID attribute-->                      
+  <!ATTLIST position entityID CDATA #IMPLIED
+                                  issueID CDATA #IMPLIED>                      
+                                                         
+<!--the cause-effect element is an element that can only be found within the sentence element, to signal the author is highlighting a cause-effect scenario-->          
+<!ELEMENT cause-effect (#PCDATA|cause|effect|descriptor)*>
+            
+<!--cause and effect tags can be found in other elements at the same level as the cause-effect element since they help to deconstruct causes and/or effects of those element categories-->
+<!ELEMENT cause (#PCDATA|issue|policy|position|statement|event|entity|when|where|descriptor|name|person)*>                                   
+  <!ATTLIST cause value (1|0|-1) #REQUIRED
+                               type (phenomena|policy|position|statement|reaction|issue|conditions|event) #REQUIRED>
+                               
+<!ELEMENT effect (#PCDATA|issue|policy|position|entity|where|descriptor|statement|reaction|event|direct-quote|name|person|when)*>
+  <!ATTLIST effect value (1|0|-1) #REQUIRED
+                                   type CDATA #IMPLIED>
+                                    
+<!--the reaction element is an element that can only be found within the sentence element, to signal the author is discussing a reaction by an entity-->
+<!ELEMENT reaction (#PCDATA|cause|effect|issue|policy|position|statement|event|entity|when|where|descriptor|name|person|direct-quote)*>         
+   <!ATTLIST reaction entityID CDATA #IMPLIED
+                                    value (1|0|-1) #REQUIRED
+                                    type (threat|violence|statement|position|disturbance) #REQUIRED>
+
+<!ELEMENT issue (#PCDATA|entity|when|where|descriptor|policy|position)*>
+  <!ATTLIST issue issueID CDATA #IMPLIED>                                                                                                                                                  
+ 
+<!--the event tag captures data that about an event that has occured-->
+<!ELEMENT event (#PCDATA|entity|when|where|descriptor|policy|position|reaction|name|person)*>
+   <!ATTLIST event entityID CDATA #IMPLIED
+                               status (official|unofficial) #REQUIRED
+                               event-type (violence|diplomatic|post-war|policy|ceremony|domestic) #IMPLIED
+                               yyyy CDATA #IMPLIED
+                               mm CDATA #IMPLIED
+                               dd CDATA #IMPLIED>
+                               
+<!--the six elements below: descriptor, person, name, entity, when, and where, capture distinct instances of each of the resepctive categories and can be found in elements of one and two levels above-->  
+ 
+<!--value attribute is used to impose value to the term(s) in the tags; -->
+<!--there are three possible values of -1=negative, 0=neutral, and 1=positive; values reflect the entity (either in-text or author)--> 
+<!--that is describing the term in the descriptor tag-->
+<!ELEMENT descriptor (#PCDATA)>
+<!--the type of descriptor is noted when there is a comparison (type="comparison") with an entity that does not need to be tagged or in instances when there is a numeric value (type="amount") as well as to indicate the duration (type="time") of the thing being described-->
+  <!ATTLIST descriptor value (1|0|-1) #REQUIRED                                                                                            type CDATA #IMPLIED>    
+
+ <!--person element allows us to capture an individual and details about how they are described in the article; where applicable, the jobtitle and nameID is applied-->
+ <!ELEMENT person (#PCDATA|fullname|jobtitle|lastname|firstname|knickname|descriptor)*>
+ 
+ <!--nameID attribute is used for a specific individual; jobtile attribute is used to give additional information to the person in question and can be queried based on its values; codes can be found on the authoritylist.xlsx  found at ".//authoritylist.xlsx"-->
+   <!ATTLIST person nameID CDATA #REQUIRED
+                                      jobtitle CDATA #IMPLIED> 
+ <!ELEMENT fullname (#PCDATA)*>    
+ <!ELEMENT firstname (#PCDATA)>
+ <!ELEMENT lastname (#PCDATA)>
+ <!ELEMENT knickname (#PCDATA) >
+ <!ELEMENT jobtitle (#PCDATA|descriptor)*>
+ 
+ <!-- the entity element is used within second level elements to signal a different entity than the subject of the sentence.  For instance, if the sentence is about a statment someone made, an entity tag found in the statement tag signals that person mentioned the other entity found in the entity tag.-->
+
+<!ELEMENT entity (#PCDATA|name|person|descriptor)*>
+<!--entityID attribute indicates a country or other international player (organization); entityID in upper-level tags refer to the entity who is the subject of the sentence; codes can be found on the authoritylist.xlsx  found at ".//authoritylist.xlsx"-->
+  <!ATTLIST entity type (official|unofficial) #REQUIRED
+                                entityID CDATA #IMPLIED>
+ 
+<!--name element can be used for names of official entities, whether they be a country name (such as US, or Israel), or general description, including pronounds; but signals more to how the author is referring to that entity-->
+<!ELEMENT name (#PCDATA|descriptor)*>     
+
+<!-- when and where elements capture isolated dates and geo-locations-->
+<!ELEMENT when (#PCDATA|date|descriptor|weekday)*>
+           
+<!ELEMENT where (#PCDATA|descriptor)*>
+  <!ATTLIST where location-type (city|hq|building|area|region) #REQUIRED
+                               entityID CDATA #REQUIRED 
+                               cityID CDATA #IMPLIED>
+              
+<!ELEMENT image (caption?, photographer*)> 
+  <!ATTLIST image filepath CDATA #IMPLIED
+                               alt CDATA #IMPLIED>
+<!ELEMENT caption (#PCDATA)*>
+<!ELEMENT photographer (#PCDATA|fullname|lastname|firstname|company)*>
+<!ELEMENT company (#PCDATA)>
+   
+<!ELEMENT notes (#PCDATA|copyright|attributions|corrections)*>    
+
+<!--despite being made optional here, copyright information is mandatory and should be made available after due diligence to find pertinent information-->
+<!ELEMENT copyright (#PCDATA|rightsholder|year)*>
+  <!ATTLIST copyright yyyy CDATA #REQUIRED>
+  
+<!ELEMENT rightsholder (#PCDATA|fullname|lastname|firstname|company)*>
+<!ELEMENT attributions (#PCDATA|sentence)*>
+<!ELEMENT corrections (#PCDATA|sentence)*>
