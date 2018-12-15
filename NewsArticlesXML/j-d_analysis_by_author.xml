@@ -1,0 +1,2206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articles SYSTEM "../dtd/articles_v2.dtd">
+<?xml-stylesheet type="text/xsl" href="../xsl/j-d_analysis-by-author.xsl"?>
+
+
+<articles>
+   <article article-type="op-ed" ID="1">
+       <head>
+           <publication pub-title="the-guardian" version="uk">The Guardian</publication>
+           <source source-type="online">
+               <url>https://www.theguardian.com/us-news/2017/dec/05/jerusalem-embassy-move-can-the-saudis-stay-trumps-hand</url>
+           </source>
+            
+           <access-date>
+               <date date-type="accessed" yyyy="2018" mm="02" dd="28">
+                   <year>2018</year>
+                   <month>02</month>
+                   <num-day>28</num-day>
+               </date>
+           </access-date>
+           <wordcount total="501">501</wordcount> 
+        </head>
+       
+       <heading>
+           <headline src="../articles/why_would_moving_the_US_embassy.pdf">
+               <sentence topic="title" >Why would moving the US Embassy to Jerusalem be so contentious?</sentence> 
+           </headline>
+                     
+           <byline>
+               <author authorID="iabl"> 
+                     <fullname>Ian Black</fullname>
+               </author> 
+              
+               <article-date>
+                   <date date-type="published" yyyy="2017" mm="12" dd="5">
+                       <year> 2017 </year>
+                        <month> December </month>
+                       <num-day> 5 </num-day>
+                       <weekday dayOfWeek="Tues">Tues</weekday>
+                    </date>                        
+                <time type="military" timezone="gmt">14:47</time>
+               </article-date>
+           </byline>
+           <desk deskID="usn">US News</desk>
+       </heading>
+        
+       <bodytext>
+           <image filepath="../images/WhyWouldMoving.jpg" alt="Mohammed bin Salman with Donald Trump in Washington earlier this year">
+               <caption>Mohammed bin Salman with Donald Trump in Washington earlier this year.</caption>
+               <photographer>
+                   <fullname>Mark Wilson</fullname>
+                   <company>Getty Images</company>
+               </photographer>
+           </image>
+           
+           <lead>
+               <p>
+                   <sentence topic="speculation">
+                       <reaction entityID="sdar" value="-1" type="statement">
+                            <name>Riyadh</name> 
+                           has spoken out against
+                               <cause value="-1" type="policy">
+                                   US 
+                                   <descriptor value="-1">threats</descriptor>
+                                   <policy entityID="usa" issueID="jer">
+                                       to move its 
+                                       <where location-type="hq" entityID="usa">diplomatic HQ</where> from
+                                       <where location-type="city" cityID="tlv" entityID="isr">Tel Aviv</where>
+                                   </policy>
+                               </cause>
+                               <effect value="0" type="policy-position"> 
+                               but will the 
+                                   <entity type="official" entityID="usa">
+                                       <person nameID="dotr" jobtitle="pres">
+                                           <jobtitle>the president</jobtitle>
+                                       </person>
+                                   </entity>  
+                               listen?
+                           </effect>  
+                      </reaction> 
+                   </sentence>
+               </p>
+           </lead>
+           
+           <p>
+<!--try to figure out if you want to change the issue tag here-->
+               <sentence topic="opinion">
+                    <phenomenon type="issue">
+                        <issue issueID="ispa">
+                            Of all the issues at the heart of the
+                           <descriptor value="-1">enduring</descriptor>
+                           conflict between 
+                           <entity type="official" entityID="isr">Israel</entity> 
+                            and
+                            <entity type="official" entityID="pal">the Palestinians,</entity>
+                       </issue>
+                       <issue issueID="jer">
+                           <descriptor value="-1">none is as sensitive</descriptor> 
+                           as the status of 
+                           <where location-type="city" cityID="qds" entityID="pal">Jerusalem.</where>
+                       </issue>
+                    </phenomenon>
+               </sentence>
+
+<!--try to figure out if you want to change the issue tag here-->
+               <sentence topic="fact">
+                   <phenomenon type="issue">
+                       <issue issueID="jer">
+                           <where location-type="city" cityID="qds" entityID="pal">The holy city</where>
+                           <descriptor value="0">has been at the centre</descriptor>  
+                           of 
+                           <policy issueID="ispa" entityID="usa">peace-making efforts</policy> 
+                           for 
+                           <descriptor value="0" type="time">decades.</descriptor>
+                       </issue>
+                   </phenomenon>
+               </sentence> 
+       
+               <sentence topic="opinion">
+                   <cause-effect>         
+                       <cause value="-1" type="policy">
+                          <policy entityID="usa" issueID="jer"> 
+                              <person nameID="dotr" jobtitle="pres">
+                                <fullname>Donald Trump's</fullname>   
+                                </person>
+                               approach to
+                               <issue issueID="jer">it</issue>
+                          </policy >
+                       </cause>
+                       <effect value="-1" type="reaction"> 
+                           <descriptor value="-1">threatens</descriptor>
+                           to smash a 
+                           <position entityID="inco" issueID="ispa">
+                               <descriptor value="0" type="time">long-standing</descriptor>
+                               international consensus in a 
+                           </position>
+                           <descriptor value="-1">disruptive and dangerous way.</descriptor>
+                       </effect>
+                   </cause-effect>
+               </sentence>
+           </p>
+           
+           <p>
+               <sentence topic="observation">
+                   <reaction value="-1" type="statement" entityID="inco">Warnings to
+                       <entity type="official" entityID="usa">Washington</entity>
+                        from across the  
+                        <name>Middle East and beyond</name>
+                        <effect value="-1">have still failed to clarify whether the
+                           <policy entityID="usa" issueID="jer">
+                               US will indeed 
+                               <descriptor value="-1">unilaterally</descriptor> 
+                               recognise 
+                               <where location-type="city" entityID="pal"  cityID="qds">Jerusalem</where> as 
+                               <entity type="official" entityID="isr">
+                                   <descriptor value="0" type="entity">Israel’s capital</descriptor>
+                               </entity>
+                              and/or carry out 
+                               <entity type="official" entityID="usa">
+                                    <person nameID="dotr">
+                                        <lastname>Trump's</lastname>
+                                    </person>
+                               </entity> 
+                               <descriptor value="-1">controversial</descriptor> 
+                               campaign promise to transfer the US embassy
+                               <where location-type="city" cityID="qds" entityID="pal">there</where>
+                               from 
+                               <where location-type="city" cityID="tlv" entityID="isr">Tel Aviv.</where>
+                           </policy>
+                       </effect>
+                   </reaction>
+               </sentence>
+               
+               <sentence topic="observation">
+                   <cause-effect>
+                       <effect value="-1">The pressure to refrain from doing either is
+                           <descriptor value="-1">mounting</descriptor>
+                           and 
+                           <descriptor value="-1">widespread.</descriptor>
+                       </effect> 
+                   </cause-effect>
+               </sentence>   
+               
+               <sentence topic="observation">
+                   <cause-effect>
+                       <effect value="-1">The risks
+                            are
+                           <descriptor value="-1">high.</descriptor>
+                       </effect> 
+                   </cause-effect>
+               </sentence>
+           </p>
+           
+           <p>
+               <sentence topic="fact">
+                   <policy-position option="position" entityID="isr" issueID="jer">
+                       Israel
+                       <descriptor value="0">routinely describes</descriptor> 
+                       <where location-type="city" cityID="qds" entityID="pal">the city,</where>
+                       with its 
+                       <descriptor value="0">Jewish,</descriptor> 
+                       <descriptor value="0">Muslim</descriptor> 
+                       and 
+                       <descriptor value="0">Christian </descriptor>
+                       <where location-type="building" entityID="pal">
+                           <descriptor value="1">holy places,</descriptor>
+                       </where>
+                       as its 
+                       <position> 
+                           <entity entityID="isr" type="official">
+                               <descriptor value="1">“united and eternal” capital.</descriptor> 
+                           </entity>
+                       </position>
+                   </policy-position>
+               </sentence> 
+               
+               <sentence topic="observation">
+                   <cause-effect> 
+                       <effect value="-1">
+                           <issue issueID="jer">But
+                               <where location-type="city" cityID="qds" entityID="pal">its</where>
+                               history is 
+                               <descriptor value="1">inextricably bound up with</descriptor>
+                           </issue>  
+                           <issue issueID="ispa">
+                               <descriptor value="-1">the bigger picture of the</descriptor>
+                               conflict
+                           </issue> 
+                       </effect>    
+                   </cause-effect>
+               </sentence>
+          
+               <sentence topic="fact">
+                   <policy-position option="position" entityID="unga"  issueID="jer">
+                       <event status="official" event-type="post-war" entityID="inco" yyyy="1947">     
+                           <descriptor value="0" type="time">Seventy years ago,</descriptor>
+                           at the 
+                            <descriptor value="-1">violent end of</descriptor>
+                            <entity type="official" entityID="uk">British rule,</entity> 
+                       </event>
+                       <event event-type="diplomatic" yyyy="1947" status="official" entityID="unga">
+                           when  
+                           <name>the UN</name> 
+                           voted to partition
+                           <entity type="official" entityID="pal">Palestine</entity> 
+                           into 
+                           <entity type="official" entityID="isr">Jewish</entity>
+                           and 
+                           <entity type="official" entityID="pal">Arab</entity> 
+                           states
+                       </event>
+                       <where location-type="city"  cityID="qds" entityID="pal">Jerusalem</where>
+                       was defined as a 
+                       <descriptor value="-1">separate entity</descriptor>
+                       under international supervision.
+                   </policy-position>
+               </sentence>
+           </p>
+                      
+           <p>
+               <sentence topic="observation"> 
+                   <cause-effect>
+                       <cause value="-1" type="conditions">Hard facts on the ground</cause>
+                       <effect value="-1">dictated otherwise.</effect>
+                   </cause-effect>
+               </sentence>
+               
+               <sentence topic="fact">
+                   <event status="official" entityID="isr" event-type="post-war" yyyy="1948">In the war of 
+                       <when>
+                           <date date-type="in-text" yyyy="1948">
+                               <year>1948</year>
+                           </date>
+                       </when>
+                       <where location-type="city" entityID="pal" cityID="qds">it</where>
+                       <policy entityID="inco" issueID="jer">
+                           was divided, 
+                           <descriptor value="0" type="comparison">like Berlin in the cold war,</descriptor>
+                           into western and eastern sectors under 
+                           <descriptor value="0" type="entity">Israeli</descriptor>
+                           and 
+                           <entity type="official" entityID="jor">
+                               <descriptor value="0" type="entity">Jordanian</descriptor>
+                           </entity>
+                           control respectively.
+                       </policy>
+                   </event>
+               </sentence>
+               
+               <sentence topic="fact">   
+                   <event event-type="post-war" yyyy="1967" entityID="isr" status="official">
+                       <descriptor value="0" type="time" >Nineteen years later,</descriptor>
+                       in 
+                       <when>
+                           <date date-type="in-text" yyyy="1967" mm="6">
+                               <month>June</month> 
+                               <year>1967,</year>
+                           </date>
+                       </when>
+                       Israel captured the eastern side, expanded the city’s boundaries and annexed it
+                   
+                          an act that was 
+                           <position entityID="inco" issueID="jer"> 
+                               <descriptor value="-1">never recognised internationally.</descriptor> 
+                           </position>
+                   </event>
+               </sentence>
+           </p>
+               
+           <p>
+               <sentence topic="fact">
+                       <cause-effect >
+                           <cause value="0" type="position">
+                               <position entityID="inco" issueID="jer"> 
+                               Recognition 
+                               <descriptor value="0">is bound up with larger questions of territory and peace</descriptor>
+                               </position>
+                           </cause>
+                           <effect value="-1">and it clashes with
+                               <position entityID="pal" issueID="jer">
+                                    Palestinian demands that
+                                   <where location-type="city" cityID="qds" entityID="pal">East Jerusalem</where>
+                                   must be the 
+                                   <entity entityID="pal" type="official">capital</entity>
+                                   of a 
+                                   <descriptor value="1">future independent</descriptor> 
+                                   <entity type="official" entityID="pal">
+                                       <descriptor value="0" type="entity">Palestinian</descriptor> 
+                                       state.
+                                   </entity>
+                               </position>
+                           </effect>
+                       </cause-effect>
+               </sentence>
+               
+               <sentence topic="fact">
+                   <policy-position option="position" entityID="inco"  issueID="jer">The 
+                       <descriptor value="1">unequivocal</descriptor> 
+                       international view,
+                       <descriptor  value="1" type="comparison">accepted by all previous US  administrations</descriptor>
+                       is that  
+                       <where location-type="city" cityID="qds"  entityID="pal">the city’s</where> 
+                       status must be addressed in negotiations.
+                   </policy-position> 
+               </sentence>
+           </p>
+           
+           <p>
+               <sentence topic="observation">  
+                   <cause-effect>
+                       <cause value="-1" type="phenomena">
+                           <descriptor value="0">Nationalism,</descriptor>
+                           <descriptor value="0">religion</descriptor>
+                           and 
+                           <descriptor value="1">security</descriptor>
+                       </cause>
+                       <effect value="-1">make for an 
+                           <descriptor value="0">emotionally</descriptor> 
+                           <descriptor value="-1">freighted </descriptor>issue.
+                       </effect>
+                   </cause-effect>
+               </sentence>
+              
+               <sentence topic="observation">
+                   <cause-effect>
+                      <effect value="-1" type="conditions"> 
+                          <where location-type="city"  cityID="qds" entityID="pal">Jerusalem's</where>
+                           <entity type="unofficial" entityID="isr" >Jews</entity>
+                           and
+                           <entity type="unofficial" entityID="pal">Arabs
+                               <descriptor value="0" type="stat">(some 37% of the total)</descriptor>
+                           </entity>
+                           live 
+                           <descriptor value="0">largely separate and in many ways segregated</descriptor> 
+                           lives
+                       </effect>
+                   </cause-effect>
+               </sentence>
+               
+               <sentence topic="observation">
+                   <cause-effect>
+                       <cause value="-1" type="policy">
+                           <policy entityID="isr" issueID="discrimination">Municipal budgets</policy>
+                       </cause>
+                       <effect value="-1" type="policy">
+                           discriminate against 
+                           <entity type="unofficial" entityID="pal">Palestinians,</entity>
+                       </effect>
+                       <effect value="-1">
+                           <descriptor value="-1">whose residence permits can be revoked.</descriptor>
+                       </effect>
+                   </cause-effect>
+            </sentence>
+            
+               <sentence topic="observation">
+                   <cause-effect>
+                       <cause value="-1" type="policy">
+                           <policy entityID="isr" issueID="barrier">The  barrier</policy>
+                       </cause>
+                       <effect value="-1">
+                           cuts off some 
+                           <where location-type="area" entityID="pal">
+                               <descriptor value="0" type="entity">Palestinian</descriptor> 
+                               areas
+                           </where> 
+                           from the 
+                           <where location-type="city" entityID="pal" cityID="qds">rest of the city.</where>
+                       </effect>
+                   </cause-effect>
+               </sentence>    
+               
+               <sentence topic="observation"> 
+                   <cause-effect>
+                           <cause value="-1" type="policy">
+                               <where location-type="area" cityID="qds" entityID="pal">East Jerusalem's</where> 
+                               <entity entityID="pal" type="unofficial">
+                                   <descriptor value="0" type="entity">Palestinian</descriptor> 
+                                   neighbourhoods
+                               </entity>     
+                               have become enclaves surrounded by the
+                               <event entityID="isr" event-type="post-war" status="official" yyyy="1967">
+                                    <descriptor value="0">post-1967</descriptor>
+                               </event>
+                               <entity type="unofficial" entityID="isr">Jewish ones,</entity>
+                           </cause>
+                           <effect value="-1">
+                               with 
+                               <descriptor value="-1"> little</descriptor> 
+                               contact with each other.
+                           </effect>
+                   </cause-effect>
+               </sentence>
+           </p> 
+               
+           <p>
+
+               <sentence topic="observation">
+                   <phenomenon type="conditions">
+                       <where location-type="building" entityID="pal">The Temple Mount/Haram al-Sharif,
+                           <descriptor value="0">adjacent to</descriptor>
+                       </where> 
+                       <where location-type="building" entityID="isr">the Western Wall,</where>
+                       remains 
+                       <descriptor value="-1">highly</descriptor>
+                       <descriptor value="-1">volatile.</descriptor>
+                   </phenomenon>
+               </sentence>
+               
+               <sentence topic="observation">
+                       <reaction value="-1" entityID="pal" type="violence">
+                           <effect value="-1" type="event">
+                               <event status="unofficial" event-type="violence" mm="7" yyyy="2017">
+                                  In
+                                  <when> 
+                                       <date date-type="in-text" yyyy="2017" mm="7">
+                                           <month>July </month>
+                                       </date>   
+                                  </when> 
+                                  widespread protests erupted
+                               </event>
+                           </effect>
+                           <cause value="-1" type="event">  
+                               <event status="unofficial" yyyy="2017" event-type="violence" entityID="pal">  
+                                   <entity type="unofficial" entityID="pal">
+                                       after
+                                       <descriptor value="0" type="entity">Israeli Arab</descriptor>
+                                       gunmen
+                                   </entity>
+                                   killed two 
+                                   <entity type="official" entityID="Isr">
+                                       <descriptor value="0" type="entity">Israeli</descriptor>
+                                       policemen
+                                   </entity>
+                               </event>
+                                and
+                               <event entityID="isr" event-type="policy" yyyy="2017" status="official">
+                                   the authorities installed metal detectors in a way that was interpreted 
+                                   <descriptor value="-1">as breaching the status quo</descriptor>
+                               </event>
+                           </cause>
+                       </reaction>
+               </sentence>  
+               
+                <sentence topic="observation">
+                    <cause-effect>
+                           <effect value="-1" type="violence">
+                               <descriptor value="-1">Nightmare</descriptor>
+                               scenarios about escalation often begin in 
+                               <where location-type="city" cityID="qds" entityID="pal">Jerusalem.</where> 
+                           </effect>
+                       </cause-effect>
+               </sentence>
+           </p>
+               
+           <p>               
+               <sentence topic="statement"> 
+                   <statement entityID="pal"> 
+                       <person nameID="saer" jobtitle="nego">
+                           <fullname>Saeb Erakat</fullname>,
+                            <descriptor value="1" type="entity">the veteran</descriptor>
+                           <jobtitle>PLO negotiator
+                            </jobtitle>
+                       </person>, 
+                       has warned
+                       <direct-quote> 
+                           <cause value="-1" type="policy">
+                           that a change 
+                           <position entityID="usa" issueID="jer">in the US stance</position>
+                       </cause>
+                           <effect value="-1" >would mean 
+                           <entity type="official" entityID="usa">it</entity>  
+                           was “disqualifying 
+                               <entity type="official" entityID="usa">itself</entity>
+                               <policy entityID="usa" issueID="ispa">to play any role in any initiative towards achieving a 
+                                   <descriptor value="1">just and lasting</descriptor>
+                                   peace”.
+                               </policy>
+                           </effect>
+                       </direct-quote>
+                   </statement> 
+               </sentence>
+               
+               
+               <sentence topic="statement">    
+                   <statement entityID="jor"> 
+                       <person nameID="kiab" jobtitle="king">
+                           <jobtitle>King</jobtitle>
+                           <firstname>Abdullah</firstname> 
+                           <descriptor value="0" type="entity">of Jordan</descriptor>
+                       </person>
+                       highlighted the danger that 
+                       <cause value="-1" type="policy">
+                           <policy issueID="jer" entityID="usa">
+                               <descriptor value="0">the move</descriptor>
+                           </policy>
+                       </cause>
+                       could be
+                       <direct-quote>
+                           <effect value="-1" type="violence">“exploited by terrorists to stoke anger, frustration and desperation in order to spread their ideologies”.</effect> 
+                       </direct-quote>
+                   </statement>
+               </sentence>
+               
+               <sentence topic="statement">
+                   <reaction entityID="ham" value="-1" type="threat">
+                       <name>
+                           <descriptor value="0">The Islamist movement</descriptor>
+                           Hamas
+                       </name>
+                       has threatened a new 
+                       <policy entityID="pal" issueID="ispa">intifada.</policy>
+                   </reaction>
+               </sentence>
+           </p>
+               
+           <p>
+               <sentence topic="analysis">     
+                   <cause-effect>
+                       <effect value="1" type="">In theory,  
+                           <entity type="official" entityID="usa">
+                               <person nameID="dotr" jobtitle="pres">
+                                   <lastname>Trump</lastname>
+                               </person>
+                           </entity> 
+                           could recognise 
+                           <where location-type="city"  cityID="qds" entityID="pal">Jerusalem</where>
+                           as the 
+                           <descriptor value="0">capitals</descriptor> 
+                           of both 
+                           <entity type="official" entityID="Isr">Israel</entity>
+                            and 
+                           <entity type="official" entityID="pal">Palestine.</entity>
+                       </effect>
+                   </cause-effect>
+               </sentence>
+ 
+               <sentence topic="analysis">  
+                   <cause-effect>
+                       <cause type="position" value="1">
+                           <position entityID="usa" issueID="jer">That</position>
+                       </cause> 
+                       <effect value="1">would underline the commitment of the 
+                           <policy entityID="usa" issueID="ispa">
+                               <name>US</name>
+                               to a two-state solution
+                               <descriptor value="-1" >– which has been in doubt</descriptor>
+                           </policy>
+                           since
+                           <person  jobtitle="pres" nameID="dotr">his</person>
+                           <event status="official" entityID="usa" event-type="ceremony">
+                           inauguration in 
+                               <when> 
+                                   <date date-type="in-text" yyyy="2017" mm="1">
+                                       <month>January.</month>
+                                   </date>
+                               </when>
+                           </event>
+                       </effect>
+                   </cause-effect>                     
+               </sentence>
+               
+               <sentence topic="opinion">
+                   <cause-effect>
+                       <effect value="-1">But it seems highly unlikely</effect>
+                       <cause value="-1" type="policy"> in the light of 
+                           <descriptor value="0">intensifying</descriptor> 
+                           talk about the elements of
+                            <position entityID="usa" issueID="ispa">
+                                   <person nameID="dotr" jobtitle="pres">
+                                       <lastname>Trump's</lastname>
+                                   </person>
+                              <descriptor value="1">“deal of the century”</descriptor>
+                               to resolve the conflict.
+                           </position>
+                       </cause> 
+                   </cause-effect>
+               </sentence>
+           </p>
+               
+           <p>
+               <sentence topic="speculation">
+                   Nothing has been announced officially, but leaks point to a key role for 
+                   <policy-position option="position" entityID="sdar" issueID="jer" >
+                      <name>Saudi Arabia,</name>
+                       which is reportedly pressing the 
+                       <entity type="official" entityID="pal">
+                           <person nameID="maab" > 
+                                <jobtitle>
+                                    <descriptor value="0" type="entity">Palestinian</descriptor> 
+                              president,
+                                </jobtitle>, 
+                               <fullname>Mahmoud Abbas,</fullname>
+                           </person>
+                       </entity>
+                       to accept a 
+                       <policy entityID="pal" issueID="ispa">peace plan that would involve 
+                           <where location-type="area" entityID="pal"> 
+                               <descriptor value="0" type="entity">Palestinian </descriptor> 
+                               control of 
+                               <descriptor value="-1">disconnected</descriptor> 
+                               enclaves in the West Bank – dotted with 
+                                   <descriptor value="-1">illegal</descriptor> 
+                                   <descriptor value="0" type="entity">Israeli</descriptor> 
+                           settlements –
+                           </where>
+                           and make do with the 
+                           <where location-type="city" cityID="qds" entityID="pal">East Jerusalem suburb of Abu Dis,</where>
+                           beyond 
+                           <issue issueID="barrier">the separation barrier</issue>
+                           as a 
+                           <entity entityID="pal" type="official">capital.</entity>
+                       </policy> 
+                   </policy-position>
+               </sentence>
+               
+               <sentence topic="observation"> 
+                   <policy-position option="policy" entityID="usa" issueID="jer" >
+                       <person nameID="dotr">
+                           <lastname>Trump's</lastname>
+                       </person>
+                       <person nameID="jaku">
+                           <descriptor value="0">son-in-law,</descriptor>
+                           <fullname>Jared Kushner,</fullname>
+                       </person>
+                       is said to have worked 
+                       <issue issueID="jer">this</issue> 
+                       out with the  
+                      <entity entityID="sdar" type="official">
+                           <person jobtitle="crownprince" nameID="mbs">
+                              <jobtitle>
+                                  <descriptor value="0" type="entity">Saudi</descriptor>
+                                   crown prince,
+                              </jobtitle>
+                               <fullname>Mohammed bin Salman.</fullname>
+                           </person>
+                       </entity>
+                   </policy-position>
+               </sentence>
+           </p>
+               
+           <p>
+               <sentence topic="observation">
+                   <cause-effect>
+                       <effect type="position" value="1">
+                           <entity type="official" entityID="usa">
+                               <person nameID="dotr" jobtitle="pres">
+                                   <lastname>Trump</lastname>
+                               </person>
+                           </entity>
+                           seems to have identified
+                           <position entityID="sdar" issueID="mideast"> 
+                                <person nameID="mbs" jobtitle="crownprince">
+                                   <lastname>Bin Salman</lastname>
+                                    as 
+                                  committed to internal reform, confrontation with Iran and to securing 
+                                       <descriptor value="0" type="entity">Israeli-Palestinian</descriptor> 
+                                   peace.
+                               </person>
+                           </position> 
+                       </effect>
+                  </cause-effect>
+               </sentence>
+               
+               <sentence topic="speculation">
+                   <cause-effect>
+                        <cause type="statement" value="-1">If 
+                           <entity type="official" entityID="usa" >Washington</entity>
+                           cares about the view from
+                           <entity type="official" entityID="sdar">Riyadh,</entity> 
+                           <statement entityID="sdar">Saudi Arabia’s public statement on 
+                               <when>
+                                   <weekday dayOfWeek="Tues">Tuesday</weekday>
+                               </when>  
+                               that it opposes 
+                               <position entityID="usa" issueID="jer">
+                                   <name>US</name>
+                                   recognition of 
+                                   <where location-type="city"  cityID="qds" entityID="pal">Jerusalem</where>
+                                   as 
+                                    <entity type="official" entityID="Isr">
+                                        <descriptor value="0">Israel's capital</descriptor>
+                                    </entity>
+                               </position> 
+                            </statement>
+                       </cause>
+                       <effect value="1">may help prevent this 
+                           <policy entityID="usa" issueID="jer">move
+                               <descriptor value="-1">needlessly provocative</descriptor>
+                                 from taking place – at least for now.
+                           </policy >
+                       </effect>
+                  </cause-effect>
+               </sentence>
+           </p>
+       </bodytext>
+        
+   <notes>
+       <copyright yyyy="2017">
+           <year>2017</year>
+           <rightsholder>The Guardian</rightsholder>
+       </copyright>
+   </notes>
+   
+   </article>
+ 
+    <article article-type="report" ID="2">
+        <head>
+            <publication pub-title="the-guardian" version="uk">The Guardian</publication>
+            <source source-type="online">
+                <url>https://www.theguardian.com/us-news/2017/dec/06/donald-trump-us-jerusalem-israel-capital</url>
+            </source>
+            
+            <access-date>
+                <date date-type="accessed" yyyy="2018" mm="02" dd="28">
+                    <year>2018</year>
+                    <month>02</month>
+                    <num-day>28</num-day>
+                </date>
+            </access-date>
+            
+            
+            <wordcount total="282">282</wordcount>
+        </head>
+        
+        <heading> 
+            <headline src="../articles/turkey_hopes_to_open_embassy_in_east_jerusalem.pdf">
+                <sentence topic="title">Turkey hopes to open embassy in East Jerusalem, says Erdoğan</sentence>
+           </headline>
+            
+            <byline>
+                <author authorID="reut">
+                    <company>Reuters</company>
+                </author> 
+                
+                <article-date>
+                   <date date-type="published" yyyy="2017" mm="12" dd="17">
+                       <year> 2017 </year>
+                       <month> December </month>
+                       <num-day> 17 </num-day>
+                       <weekday dayOfWeek="Sun"> Sun</weekday>
+                   </date>                        
+                   <time type="military" timezone="gmt">15:32</time>
+                </article-date>
+            </byline>
+            <desk deskID="world">World News</desk>
+        </heading>
+        
+        <bodytext>
+           <image filepath="../images/Erdogan_to_open_embassy_in_E_Jer.jpg" alt="Turkey's President Recep Erdogan in front of a ">
+               <caption>Recep Tayyip Erdoğan was speaking to members of his AK party in southern Turkey.</caption> 
+               <photographer>
+                   <company>Anadolu Agency</company>
+                   <company>Getty Images</company>
+               </photographer>
+           </image>
+            
+           <lead>
+               <p>
+                   <sentence topic="summary">
+                       <statement entityID="turk">
+                           <person nameID="reer" jobtitle="pres">
+                               <jobtitle>
+                                   <descriptor value="0" type="entity">Turkish</descriptor>
+                                president
+                               </jobtitle>
+                           </person> 
+                           announces intention 
+                           <when>days after leading calls</when>
+                           <position entityID="arab" issueID="jer">for 
+                               <where location-type="city" entityID="pal" cityID="qds">the area</where> 
+                               to be recognised as 
+                               <entity entityID="pal" type="official">capital of 
+                                   <descriptor value="0" type="entity">Palestinian</descriptor> 
+                                   state.
+                               </entity>
+                           </position>
+                       </statement>
+                   </sentence>
+               </p>
+           </lead>
+            
+           <p>
+               <sentence topic="fact">
+                   <statement entityID="turk">
+                       <policy entityID="turk" issueID="jer">
+                           <name>Turkey</name>
+                           intends to open an 
+                           <where location-type="hq" cityID="qds" entityID="pal">embassy</where> 
+                           in 
+                           <where location-type="city" entityID="pal" cityID="qds">East Jerusalem,</where> 
+                           <person jobtitle="pres" nameID="reer">
+                               <jobtitle>President </jobtitle>
+                               <fullname>Recep Tayyip Erdoğan</fullname>
+                           </person> 
+                           has said,
+                       </policy>  
+                           <event entityID="ioc" event-type="diplomatic" mm="12" yyyy="2017" status="official">
+                           <when>
+                              <descriptor value="0" type="time">days after</descriptor>
+                           </when> 
+                           leading calls at a summit of 
+                               <entity type="official" entityID="ioc">
+                                   <descriptor value="0" type="entity">Muslim</descriptor> leaders
+                               </entity> 
+                               for 
+                               <position entityID="inco" issueID="jer">
+                                   <name>the world</name>
+                                   to recognise it as 
+                                   <entity entityID="pal" type="official">
+                                       <descriptor value="0">the capital of a Palestinian state.</descriptor>
+                                   </entity>
+                               </position>
+                           </event>
+                   </statement>
+               </sentence>
+           </p>
+           
+           <p>
+               <sentence topic="fact">
+                    <reaction entityID="ioc" type="statement" value="-1">
+                       <effect value="-1">
+                           <event event-type="diplomatic" entityID="ioc" status="official" yyyy="2017" mm="12">The Organisation of Islamic Cooperation summit</event> 
+                           was a response
+                       </effect> 
+                       <cause type="policy" value="-1"> to the 
+                           <policy entityID="usa" issueID="jer">
+                               <person nameID="dotr" jobtitle="pres">
+                                  <jobtitle>
+                                      <descriptor value="0" type="entity">US</descriptor> 
+                                      president, </jobtitle>
+                                  <fullname> Donald Trump's</fullname>
+                               </person> decision
+                               <when>earlier this month</when>
+                               to recognise Jerusalem as 
+                               <entity type="official" entityID="isr">
+                                   <descriptor value="0">Israel's capital.</descriptor>
+                               </entity> 
+                           </policy>
+                       </cause>
+                   </reaction>
+                </sentence>
+               
+                <sentence topic="observation">
+                    <cause-effect>
+                        <cause type="policy" value="-1">
+                            <policy entityID="usa" issueID="jer">
+                                <descriptor value="0">his move</descriptor>
+                            </policy >
+                        </cause>
+                        <effect value="-1">
+                            broke with
+                            <policy entityID="usa" issueID="jer">decades of US policy and 
+                                <entity entityID="inco" type="official">international consensus</entity> 
+                                that
+                                <where location-type="city" entityID="pal"  cityID="qds">the city’s</where> status must be left 
+                                <issue issueID="ispa">to 
+                                    <descriptor value="0" type="entity">Israeli-Palestinian</descriptor> 
+                                    peace negotiations.</issue>
+                            </policy>
+                        </effect>
+                    </cause-effect>
+                </sentence> 
+           </p>
+                
+           <p> 
+               <sentence topic="statement"> 
+                   <statement entityID="turk">
+                       <person nameID="reer" jobtitle="pres">
+                           <lastname>Erdoğan</lastname>
+                       </person>
+                       said in 
+                       <event event-type="domestic" entityID="turk" status="official">a speech to
+                           <entity entityID="turk" type="official">members of his AK party</entity> 
+                           <where location-type="city" entityID="turk">in Turkey’s southern province of Karaman</where>
+                       </event> 
+                       <policy entityID="turk" issueID="jer">
+                           that the  
+                           <where location-type="hq" entityID="turk" >country’s consulate general</where> 
+                           in 
+                           <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where>
+                           was already represented by an ambassador.
+                       </policy>
+                   </statement>
+               </sentence> 
+                
+               <sentence topic="statement">
+                   <statement entityID="turk">
+                       <direct-quote>“God willing, the day is close when officially, with God’s permission, 
+                           <policy entityID="turk" issueID="jer">we will open our 
+                               <where location-type="building" entityID="pal" cityID="qds">embassy there,”</where> 
+                           </policy>
+                       </direct-quote> 
+                       <person nameID="reer" jobtitle="pres">
+                           <lastname>Erdoğan</lastname>
+                       </person> 
+                       said.
+                   </statement>
+               </sentence>
+           </p>
+           
+           <p>
+               <sentence topic="observation">
+                   <cause-effect>
+                       <effect value="-1">It was not clear how 
+                           <entity type="official" entityID="turk">
+                               <person jobtitle="pres" nameID="reer">he</person>
+                           </entity> 
+                           would carry out 
+                           <policy entityID="usa" issueID="jer">
+                               <descriptor value="0">the move,</descriptor>
+                           </policy>
+                       </effect>
+                       as 
+                       <cause type="conditions" value="-1">
+                           <policy entityID="isr" issueID="jer">
+                               <name>Israel</name> 
+                               controls all of 
+                               <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where>
+                               and calls 
+                               <where entityID="pal" location-type="city" cityID="qds">
+                                   the city its 
+                                   <descriptor value="1">indivisible capital</descriptor> 
+                                </where>
+                           </policy>
+                       </cause>
+                   </cause-effect>
+               </sentence> 
+              
+               <sentence topic="fact">
+                   <policy-position option="position" entityID="pal" issueID="jer">Palestinians want 
+                       <policy entityID="pal" issueID="ispa">
+                           <entity entityID="pal" type="official">
+                               <descriptor value="1">the capital of a future state</descriptor>
+                           </entity>
+                       </policy>
+                       they seek to be in 
+                       <where location-type="city" entityID="pal"  cityID="qds">East Jerusalem,</where>
+                       which 
+                       <event yyyy="1967" event-type="post-war" entityID="isr" status="official">
+                           <entity type="official" entityID="isr">Israel</entity> 
+                           took in a 
+                           <when>
+                               <date date-type="in-text">
+                                   <year>1967</year>
+                               </date>
+                           </when>
+                           war and 
+                           <policy entityID="isr" issueID="jer">later annexed</policy > 
+                           in 
+                           <policy entityID="inco" issueID="jer">
+                               <descriptor value="0">a move</descriptor>
+                               <descriptor value="-1">not recognised internationally.</descriptor>
+                           </policy>
+                       </event>
+                   </policy-position> 
+               </sentence>
+           </p>
+            
+            <p>
+               <sentence topic="fact">
+                   <phenomenon type="">
+                       <where location-type="city" entityID="pal" cityID="qds">Jerusalem,
+                           <descriptor value="1">revered by Jews, Christians and Muslims alike,</descriptor>
+                       </where> 
+                       is home to 
+                       <where location-type="building" cityID="qds" entityID="pal">Islam’s third holiest shrine</where> 
+                       as well as 
+                       <where location-type="building" entityID="pal" cityID="qds">Judaism’s Western Wall
+                       <descriptor value="0">– both in the eastern sector –</descriptor></where>  
+                       and 
+                       <descriptor value="1">has been at the heart</descriptor> 
+                       of the 
+                       <descriptor value="0" type="entity">Israeli-Palestinian </descriptor>
+                       conflict 
+                       <descriptor value="-1" type="time">for decades.</descriptor>
+                   </phenomenon>
+               </sentence>
+            </p>
+           
+            <p> 
+               <sentence topic="observation">
+                   <cause-effect>
+                       <cause value="0" type="policy">
+                           <name>Foreign embassies</name>
+                           in Israel, including 
+                           <entity entityID="turk" type="official">Turkey's,</entity> 
+                           are located in 
+                           <where location-type="city" entityID="isr" cityID="tlv">Tel Aviv,</where>
+                       </cause>
+                       <effect value="-1">reflecting 
+                           <issue issueID="jer">
+                               <where location-type="city" cityID="qds" entityID="pal" >Jerusalem’s </where>
+                               <descriptor value="-1">unresolved status.</descriptor>
+                           </issue>
+                       </effect>
+                   </cause-effect>
+               </sentence>
+           </p>
+           
+           <p>     
+               <sentence topic="observation">
+                   <statement entityID="mus">A communique issued 
+                       <when>after Wednesday’s</when> 
+                       <event event-type="diplomatic" status="official" yyyy="2017" mm="12">
+                           summit of</event>
+                        <name>
+                            <descriptor value="0" type="amount">more than 50</descriptor> 
+                          Muslim countries,
+                           <descriptor value="0">including US allies</descriptor>,
+                        </name>
+                       said they considered 
+                           <cause type="policy" value="-1">
+                               <policy entityID="usa" issueID="jer">
+                                   <person jobtitle="pres" nameID="dotr">
+                                       <lastname>Trump</lastname>’s
+                                   </person> 
+                                   <descriptor value="0">move</descriptor></policy>
+                           </cause>
+                            <direct-quote>
+                                <effect value="-1"> to be a declaration that 
+                               <entity type="official" entityID="usa">
+                                   <name>Washington</name>
+                               </entity> 
+                                   was withdrawing from 
+                                   <policy entityID="usa" issueID="ispa">its role “as sponsor of peace”</policy >
+                                    in the 
+                                   <where location-type="area" entityID="me">Middle East.</where>
+                               </effect>
+                           </direct-quote>
+                   </statement>
+               </sentence>
+           </p>
+        </bodytext>
+        
+        <notes>
+            <copyright yyyy="2017">
+                <year>2017</year>
+                <rightsholder>The Guardian</rightsholder>
+            </copyright>
+        </notes>
+    </article>     
+    
+    <article article-type="primer" ID="3">
+        <head>
+            <publication pub-title="the-guardian" version="uk">The Guardian</publication>
+            <source source-type="online">
+                <url>https://www.theguardian.com/world/2017/dec/06/us-recognition-of-jerusalem-as-israel-capital-what-it-means</url>
+            </source>
+            
+            <access-date>
+                <date date-type="accessed" yyyy="2018" mm="02" dd="28">
+                    <year> 2018 </year>
+                    <month> 2 </month>
+                    <num-day> 28 </num-day>
+                </date>
+            </access-date>
+            <wordcount total="582">582</wordcount>
+        </head>
+        
+        <heading>
+            <headline src="../articles/what_does_us_recognition_of_jerusalem_mean.pdf">
+                <sentence topic="title">What does US recognition of Jerusalem as Israel's capital mean?</sentence>
+            </headline>
+            <byline>
+                <author authorID="hash">
+                    <fullname>Harriet Sherwood</fullname>
+                </author>
+                <article-date>
+                    <date date-type="published" yyyy="2017" mm="12" dd="6"> 
+                        <year>  2017 </year>
+                        <month> December </month>
+                        <num-day> 6 </num-day>
+                        <weekday dayOfWeek="Weds"> Wed</weekday>
+                    </date>
+                    <time type="military" timezone="gmt">18:51</time>
+                </article-date>
+            </byline>         
+            <desk deskID="mena">Middle Eeast and North Africa</desk>
+        </heading>
+          
+       <bodytext>
+           <lead>
+               <p>
+                   <sentence topic="observation">
+                       <cause-effect>
+                           <cause type="policy" value="-1">
+                               <policy entityID="usa" issueID="jer">
+                                   <person jobtitle="pres" nameID="dotr">
+                                       <fullname>Donald Trump’s</fullname>
+                                   </person> 
+                                   <descriptor value="-1">abandonment</descriptor>
+                                   of 
+                                   <descriptor value="0"  type="time">decades of</descriptor> 
+                                   US policy
+                               </policy>
+                           </cause>
+                           <effect value="-1">has set 
+                               <entity type="official" entityID="usa">
+                                   <person nameID="dotr" jobtitle="pres">him</person>
+                                </entity>
+                               at odds with the 
+                               <entity entityID="inco" type="official">rest of the world</entity>
+                           </effect> 
+                           and 
+                           <effect value="-1">could have far-reaching consequences</effect>
+                       </cause-effect>
+                   </sentence>
+               </p>
+           </lead>
+           
+            
+            <image filepath="../images/Palestinians_watch_Trump_make_declaration.jpg" alt="Palestinians watch a televised broadcast of Trump announcing US recognition of Jerusalem as the capital of Israel, in Jerusalem’s Old City. ">
+               <caption>Palestinians watch a televised broadcast of Trump announcing US recognition of Jerusalem as the capital of Israel, in Jerusalem’s Old City.</caption>
+               <photographer>
+                   <fullname>Ammar Awad</fullname>
+                   <company>Reuters</company>
+               </photographer>
+           </image>
+           
+            <p>
+               <sentence topic="observation">
+                   <statement entityID="usa">
+                           <effect value="-1">In 
+                               <policy entityID="usa" issueID="jer">a move </policy>condemned by most of the world,</effect> 
+                               <cause type="position" value="-1">
+                                       <position entityID="usa" issueID="jer">
+                                           <person jobtitle="pres" nameID="dotr">
+                                                   <fullname>Donald Trump</fullname>
+                                           </person>
+                                           has announced the 
+                                           <name>US</name> 
+                                           will recognise 
+                                           <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                                           <entity entityID="isr" type="official">
+                                               <descriptor value="0">as the capital of Israel.</descriptor>
+                                           </entity>
+                                   </position>
+                           </cause>        
+                   </statement>
+               </sentence> 
+               
+                <sentence topic="query">
+                   <cause-effect> What does 
+                        <cause value="-1" type="policy">
+                            <policy entityID="usa" issueID="jer">
+                                <descriptor value="0">his move</descriptor>
+                            </policy>
+                        </cause>
+                    mean for the key players?</cause-effect>
+                </sentence>
+           </p>
+           
+           <section-heading>The peace process</section-heading>
+           <p>
+               <sentence topic="observation">
+                   <cause-effect>
+                       <effect value="-1">This has been in effect
+                           <descriptor value="-1"> at death’s door</descriptor></effect> 
+                       <cause value="-1" type="event">since the 
+                           <event event-type="diplomatic" entityID="usa" yyyy="2014" status="official">
+                               <entity entityID="usa" type="official">
+                                   <person nameID="joke" jobtitle="secr">
+                                       <descriptor value="0" type="entity">former</descriptor> 
+                                       <jobtitle>secretary of state</jobtitle> 
+                                       <fullname>John Kerry</fullname>
+                                   </person>
+                               </entity>’s 
+                               peace mission
+                               <descriptor value="-1"> ended in failure</descriptor> 
+                               in 
+                              <when> 
+                                   <date date-type="in-text" yyyy="2014" >
+                                       <year>2014.</year>
+                                   </date>
+                             </when>  
+                           </event>
+                       </cause>
+                   </cause-effect> 
+               </sentence>
+               
+               <sentence topic="fact">
+                  But the 
+                   <statement entityID="inco"> 
+                       <name>international community</name> 
+                       – apart from the 
+                       <entity entityID="usa" type="official">
+                           <name>US</name>
+                       </entity> 
+                       – is united in saying  
+                       <position entityID="inco" issueID="jer">
+                           recognition of 
+                           <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                           <entity entityID="isr" type="official">
+                               <descriptor value="0">as the capital of Israel</descriptor>
+                           </entity>
+                           <descriptor value="-1">is disastrous</descriptor>
+                           for any hopes of reviving meaningful talks.
+                       </position> 
+                   </statement>
+               </sentence>
+
+<!--try to figure out if you want to change the issue tag here-->
+               <sentence topic="fact">
+                   <phenomenon type="issue">
+                       <issue issueID="jer">The status of 
+                           <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                           is
+                           <descriptor value="1">one of the pivotal issues</descriptor> 
+                           that 
+                           <entity entityID="inco" type="official">
+                               <name>diplomats and peacemakers</name>
+                           </entity> 
+                           have said must be agreed between the two parties in negotiations.
+                       </issue>
+                   </phenomenon>
+               </sentence>
+           </p>
+            
+           <section-heading>The Palestinians</section-heading> 
+           <p>
+               <sentence topic="speculation">
+                   <reaction type="position" entityID="pal" value="-1"> 
+                       <name>They</name> 
+                       will see 
+                       <cause type="position" value="-1">
+                           <entity entityID="usa" type="official">
+                               <person jobtitle="pres" nameID="dotr">
+                                   <lastname>Trump's</lastname>
+                               </person>
+                           </entity>
+                           <policy entityID="usa" issueID="jer">announcement</policy > 
+                       </cause>
+                       <effect value="-1">as
+                           <policy entityID="pal" issueID="jer"> 
+                               <descriptor value="-1"> the end</descriptor> 
+                               of their hopes and demands for
+                               <where location-type="city" entityID="pal"  cityID="qds">East Jerusalem</where> 
+                               <entity entityID="pal" type="official">as a capital of a 
+                                   <descriptor value="1">future independent</descriptor> 
+                                   <descriptor value="0" type="entity">Palestinian</descriptor> 
+                                   state.
+                                   </entity> 
+                           </policy>
+                       </effect>
+                   </reaction>
+               </sentence> 
+               
+               <sentence topic="speculation">
+                   <cause-effect>
+                       <effect value="-1">Although 
+                          <name>
+                              <descriptor value="0" type="amount">few</descriptor> 
+                               Palestinians
+                          </name>
+                           <policy entityID="pal" issueID="jer">want a return to violence,</policy>
+                               <name>
+                                   <descriptor value="1" type="amount">many</descriptor>
+                               </name>
+                           will feel that
+                       </effect>  
+                       <cause type="policy" value="1">diplomatic efforts</cause> 
+                       <effect value="-1">have got them no closer to a state of their own</effect> 
+                       and 
+                       <effect value="-1" type="violence">will see little alternative to direct action.</effect>
+                   </cause-effect>
+               </sentence> 
+           </p>
+            
+           <section-heading>The state of Israe</section-heading>l
+           <p>
+               <sentence topic="speculation">
+                   <reaction type="position" value="1" entityID="isr">The 
+                       <name>
+                           <descriptor value="0" type="entity">Israeli</descriptor> 
+                           government
+                       </name> 
+                       <effect value="1">will be 
+                           <descriptor value="1">thrilled</descriptor>.
+                       </effect>
+                   </reaction>
+               </sentence> 
+               
+               <sentence topic="fact">
+                   <cause-effect>
+                       <cause type="event" value="-1">
+                           <event event-type="post-war" yyyy="1967" status="official" entityID="isr">Ever since it 
+                               <policy entityID="isr" issueID="jer">captured (and later annexed)
+                                    <where location-type="city" entityID="pal" cityID="qds">East Jerusalem</where>
+                               </policy> 
+                                in the
+                              <when> 
+                                  <date date-type="in-text" yyyy="1967">
+                                       <year>1967</year>
+                                  </date>
+                              </when> 
+                                six-day war
+                           </event>
+                       </cause> 
+                       <effect value="-1">
+                           <name>Israel</name>
+                           has claimed 
+                           <where location-type="city" cityID="qds" entityID="pal">the city</where>
+                           as its
+                           <entity entityID="isr" type="official">
+                               <descriptor value="1"> “eternal and undivided” capital,</descriptor>
+                           </entity> 
+                       </effect>
+                       and 
+                       <effect value="1">has longed for 
+                           <position entityID="inco" issueID="jer">international recognition.</position>
+                       </effect>
+                   </cause-effect>
+               </sentence>
+               
+               <sentence topic="opinion">
+                   <cause-effect>
+                      <cause value="-1" type="policy"> 
+                          <policy entityID="usa" issueID="jer">
+                              <name>Trump's</name> 
+                              decision
+                          </policy>
+                       </cause> 
+                       <effect value="1">will reinforce the view of many
+                           <entity entityID="isr" type="official">
+                               <name> 
+                                   <descriptor value="0" type="entity">Israeli</descriptor>
+                                   politicians
+                               </name>
+                           </entity> 
+                           that there is
+                           <descriptor value="-1">little to be gained</descriptor> 
+                           by 
+                           <policy entityID="isr" issueID="ispa">
+                               negotiating with the 
+                               <entity type="official" entityID="pal">
+                                   <name>Palestinians.</name>
+                               </entity>
+                           </policy>
+                       </effect>
+                   </cause-effect>
+               </sentence> 
+               
+               <sentence topic="speculation">
+                   <reaction type="position" entityID="isr" value="1">
+                       <descriptor value="0" type="amount">Some 200,000</descriptor>
+                       Israelis 
+                      <where location-type="city" entityID="pal" cityID="qds">
+                           <descriptor value="0"> living in settlements</descriptor> 
+                           in 
+                           <descriptor value="-1">occupied</descriptor> East Jerusalem, 
+                           <descriptor value="-1">illegal under international law, </descriptor>
+                      </where>
+                       will also celebrate.
+                   </reaction>
+               </sentence>
+           </p>
+            
+           <section-heading>The region</section-heading>
+           <p>
+               <sentence topic="opinion">
+                   <cause-effect>
+                       <cause value="0" type="position">
+                           <policy entityID="usa" issueID="jer">
+                               <person nameID="dotr" jobtitle="pres">
+                                   <lastname>Trump's</lastname>
+                               </person> 
+                               <descriptor value="1">move</descriptor>
+                           </policy>
+                       </cause>
+                       <effect value="-1">will further destabilise 
+                           <where location-type="region" entityID="me">
+                               an 
+                               <descriptor value="-1">already volatile</descriptor> 
+                               region
+                           </where>
+                       </effect>
+                   </cause-effect>
+               </sentence> 
+               
+               <sentence topic="fact">
+                   <statement entityID="turk">The
+                       <person nameID="reer" jobtitle="pres"> 
+                           <descriptor value="1">powerful</descriptor>
+                           <jobtitle>
+                               <descriptor value="0" type="entity">Turkish</descriptor> 
+                           president
+                           </jobtitle>,
+                           <fullname>Recep Tayyip Erdoğan</fullname>
+                       </person>,
+                       said the 
+                       <direct-quote>
+                           <entity entityID="usa" type="official"> 
+                           <name>US</name>
+                       </entity> was
+                       “plunging the region and the world into a fire with no end in sight”.
+                       </direct-quote>
+                   </statement>
+               </sentence>
+               
+               <sentence topic="fact">
+                   <reaction type="position" entityID="turk" value="-1"> 
+                       <name>Turkey</name>
+                       hinted it
+                       <effect value="-1"> 
+                           <policy issueID="jer" entityID="turk">
+                               might cut diplomatic ties with 
+                               <entity entityID="isr" type="official">
+                                   <name>Israel</name>
+                               </entity>
+                           </policy>
+                       </effect>
+                       <cause type="position" value="-1">if 
+                           <policy entityID="usa" issueID="jer">
+                               <descriptor value="0">the plan</descriptor>
+                           </policy>
+                           goes ahead.
+                       </cause>
+                   </reaction>
+               </sentence>
+               
+               <sentence topic="fact">
+                  <reaction entityID="sdar" type="position" value="-1"> 
+                      <name>Saudi Arabia
+                          <descriptor value="1"> – an important ally of the US in the region – </descriptor>
+                      </name>
+                      believe
+                      <cause type="position" value="-1">
+                          <policy  entityID="usa" issueID=""> 
+                              <descriptor value="0">the move</descriptor>
+                          </policy>
+                      </cause>
+                      <effect value="-1">damages 
+                          <name>Riyadh's</name>
+                         <policy issueID="ispa" entityID="sdar"> 
+                             <descriptor value="0">continuing efforts</descriptor>
+                             to rekindle a peace deal.</policy>
+                      </effect>
+                  </reaction>
+               </sentence> 
+               
+               <sentence topic="fact">
+                  <reaction type="position" entityID="arb" value="-1">
+                      <name>The Arab countries</name>
+                          <descriptor value="0">that border Israel</descriptor> 
+                      <name>Egypt,</name> 
+                      <name>Jordan,</name> 
+                      <name>Lebanon</name> 
+                      and 
+                      <name>Syria </name>
+                      – have 
+                      <effect value="-1">all condemned
+                          <policy entityID="usa" issueID="jer">
+                              <descriptor value="0">the move</descriptor>
+                          </policy>
+                      </effect>
+                  </reaction>
+               </sentence> 
+           </p>
+            
+           <section-heading>Europe</section-heading>
+           <p>
+               <sentence topic="speculation">
+                   <reaction value="-1" entityID="eur" type="position">
+                       <name>
+                           <descriptor value="1" type="amount">Most</descriptor> 
+                           <descriptor value="0">western</descriptor> 
+                           European countries
+                       </name> 
+                       <effect value="-1" type="opinion">will be deeply alarmed</effect> 
+                       by 
+                       <cause type="position" value="-1">
+                           <policy entityID="usa" issueID="jer">
+                               <name>US</name> 
+                               recognition of 
+                               <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                               as 
+                               <entity type="official" entityID="isr">
+                                   <descriptor value="0">Israel's capital.</descriptor>
+                               </entity> 
+                           </policy>
+                       </cause>
+                   </reaction>
+               </sentence>
+              
+               <sentence topic="query">
+                   <cause-effect>
+                       But a key question is whether the 
+                       <effect type="policy" value="-1">
+                           <policy entityID="eu" issueID="jer">
+                               <name>EU</name> 
+                               will take action, such as 
+                               <descriptor value="1">robustly</descriptor> 
+                               enforcing bans on imports from
+                               <entity  entityID="isr" type="unofficial">
+                                   <name>West Bank settlements</name>
+                               </entity>
+                           </policy>
+                           and
+                           <position entityID="eu" issueID="jer">refusing to deal with 
+                               <entity entityID="isr" type="unofficial">
+                                   <descriptor value="0" type="entity">Israeli</descriptor> 
+                                   businesses
+                                   <descriptor value="-1">operating in occupied territory,</descriptor>
+                               </entity>
+                           </position>
+                       </effect> 
+                      <effect value="-1">setting itself on a 
+                          <descriptor value="-1" type="comparison">clearly differentiated </descriptor>
+                          course from that of the 
+                          <entity entityID="usa" type="official">
+                              <name>US</name>
+                          </entity>
+                      </effect>
+                   </cause-effect>
+               </sentence>
+           </p>
+            
+           <section-heading>Christians in the Holy Land</section-heading>
+           <p>
+               <sentence topic="fact">
+                   <statement entityID="chr">
+                       <person jobtitle="patriarch" nameID="theo">
+                           <fullname>Patriarch            Theophilos III</fullname>,
+                           <jobtitle>the Greek Orthodox patriarchate</jobtitle>, 
+                           widely seen as 
+                           <descriptor value="1">the most senior Christian figure in Jerusalem,</descriptor>
+                       and a 
+                           
+                       </person> <descriptor value="0" type="amount">dozen other</descriptor>
+                           church leaders in the Holy Land
+                       sent a letter to 
+                       <entity entityID="usa" type="unofficial">
+                           <person nameID="dotr" jobtitle="pres">
+                               <lastname>Trump</lastname>
+                           </person>
+                       </entity> 
+                       on 
+                       <when>
+                           <weekday dayOfWeek="Weds">Wednesday</weekday>
+                       </when> 
+                       <direct-quote>warning of “irreparable harm”.</direct-quote>
+                           <cause type="policy" value="0">
+                               <policy entityID="usa" issueID="jer">
+                                   <name>His</name>
+                                   <descriptor value="0">move</descriptor>
+                               </policy>
+                           </cause>
+                           <direct-quote> 
+                               <effect value="-1">“will yield increased hatred, conflict, violence and suffering in 
+                               <where location-type="city"  entityID="pal" cityID="qds">Jerusalem</where>
+                               and 
+                              <where location-type="region" entityID="pal"> the Holy Land,</where> 
+                               moving us farther from the goal of unity and deeper toward 
+                               <descriptor value="-1">destructive</descriptor> 
+                               division”
+                           </effect>
+                           </direct-quote>
+                       <name>they</name> 
+                       said. 
+                   </statement>
+               </sentence>
+              
+               <sentence topic="speculation">
+                  <cause-effect>
+                      <effect value="-1">
+                          <name>Church leaders </name>
+                          will be anxious to protect 
+                          <where location-type="building" entityID="pal" >Christian sites.</where>
+                      </effect>
+                  </cause-effect>
+              </sentence>
+           </p>
+            
+           <section-heading>The city itself</section-heading>
+           <p>
+               <sentence topic="fact">
+                   <phenomenon entityID="pal">In 
+                       <when>
+                           <date date-type="in-text" yyyy="2015">
+                               <year>2015,</year>
+                           </date>
+                       </when> 
+                       <entity type="unofficial" entityID="pal">
+                           <name>Palestinians</name>
+                       </entity> 
+                       made up 
+                       <where location-type="city" entityID="pal" cityID="qds">
+                           <descriptor value="0" type="stat">37%</descriptor> 
+                           of the city’s population
+                           <descriptor value="0" type="stat">of about 850,000.</descriptor>
+                       </where>
+                   </phenomenon>
+               </sentence>
+               
+               <sentence topic="observation">
+                   <phenomenon entityID="pal"> 
+                       <entity entityID="pal" type="unofficial">
+                           <name>Many</name>
+                       </entity> live in 
+                       <descriptor value="-1">overcrowded homes and neighbourhoods,</descriptor> 
+                       unable to get permits to build or extend buildings.
+                   </phenomenon>
+               </sentence>
+               
+               <sentence topic="fact">
+                   <phenomenon type="conditions">
+                       <issue issueID="poverty">
+                           <descriptor value="0" type="amount" >Three-quarters</descriptor> 
+                           <descriptor value="-1" type="amount">live below </descriptor>
+                           the poverty line
+                       </issue> 
+                       and 
+                       <issue issueID="barrier">
+                           <descriptor value="-1" type="stat">25%</descriptor>
+                           live in 
+                           <where location-type="area" cityID="jer" entityID="pal">neighbourhoods 
+                               <descriptor value="-1">cut off</descriptor>
+                           </where> 
+                           from the rest of 
+                           <where location-type="city"  entityID="pal" cityID="qds">the city</where> 
+                           by the separation barrier.
+                       </issue>
+                   </phenomenon> 
+               </sentence>
+               
+               <sentence topic="opinion">
+                   <cause-effect>It is hard to see how 
+                       <cause type="position" value="-1">
+                           <policy entityID="usa" issueID="jer">
+                               <person jobtitle="pres" nameID="dotr">
+                                   <lastname>Trump's</lastname>
+                               </person>
+                               <descriptor value="0">move</descriptor>
+                           </policy> 
+                       </cause> 
+                       <effect value="-1">will improve conditions for them.</effect>
+                   </cause-effect>
+               </sentence>
+               
+               <sentence topic="statement">
+                   <statement entityID="isr">
+                       <person nameID="niba" jobtitle="mayor">
+                           <fullname>Nir Barkat,</fullname> 
+                       <jobtitle>
+                           <descriptor value="0" type="entity">the city’s</descriptor> 
+                           mayor,
+                       </jobtitle>
+                       </person> 
+                       said on 
+                       <when>
+                           <date date-type="in-text" yyyy="2017">
+                               <weekday dayOfWeek="Weds">Wednesday:</weekday> 
+                           </date>
+                       </when>
+                           <effect value="1">
+                               <direct-quote>“Here in 
+                                   <where location-type="city" entityID="qds"  cityID="qds">Jerusalem</where> 
+                                   and 
+                                   <entity type="unofficial" entityID="isr">
+                                       <name>Israel</name>
+                                   </entity> 
+                                   we applaud 
+                                   <entity entityID="usa" type="official">
+                                       <person nameID="dotr" jobtitle="pres">
+                                           <jobtitle>the president,"</jobtitle> 
+                                       </person>
+                                   </entity>
+                               </direct-quote>
+                           </effect>
+                           and if
+                           <cause type="phenomena" value="-1">
+                               <entity type="unofficial" entityID="pal">people</entity> 
+                               became violent, 
+                           </cause>
+                           <direct-quote><effect value="-1">“they will pay a heavy price.”</effect>
+                           </direct-quote>
+                   </statement>
+               </sentence>
+           </p> 
+               
+        </bodytext>
+        <notes>
+            <copyright yyyy="2017">
+                <year>2017</year>
+                <rightsholder>The Guardian</rightsholder>
+            </copyright>
+        </notes>
+    </article>
+    
+    
+    <article article-type="report" ID="4">
+        <head>
+            <publication pub-title="the-guardian" version="uk">The Guardian</publication>
+            <source source-type="online">
+                <url>https://www.theguardian.com/world/2018/jan/22/us-israel-open-jerusalem-embassy-sooner-expected-mike-pence</url>
+            </source>
+            
+            <access-date>
+                <date date-type="accessed" yyyy="2018" mm="02" dd="28">
+                    <year>2018</year>
+                    <month>02</month>
+                    <num-day>28</num-day>
+                </date>
+            </access-date>
+            <wordcount total="476">476</wordcount> 
+       
+        </head>
+            <heading>
+                <headline src="../US_to_open_Jerusalem_embassy_sooner_says_Pence.pdf">
+                    <sentence topic="title">US to open Jerusalem embassy sooner than expected, says Pence</sentence>
+                </headline>
+                <byline>
+                    <author authorID="olho">
+                        <fullname>Oliver Holmes</fullname>
+                    </author>
+                    <article-date>
+                        <date date-type="published">
+                            <year> 2018 </year>
+                            <month> January </month>
+                            <num-day> 22 </num-day>
+                            <weekday dayOfWeek="Mon"> Mon </weekday>
+                        </date>
+                    </article-date>
+                </byline>
+                <desk deskID="world">World News</desk>
+            </heading>
+
+        <bodytext>
+            <lead>Controversial move to be made by end of 2019, vice-president tells Israeli parliament</lead>
+            
+           <p>
+                <sentence topic="fact">
+                    <policy-position option="policy" entityID="usa" issueID="jer" >The 
+                        <name>US</name> 
+                        will open its embassy in 
+                        <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                        by
+                        <when>the end of 
+                            <date date-type="in-text" yyyy="2019">
+                                <year>2019,</year>
+                            </date>
+                            <descriptor value="1" type="time">ahead of schedule,</descriptor> 
+                        </when>
+                        <person nameID="mipe" jobtitle="vpres">
+                            <jobtitle>the vice-president,</jobtitle>
+                            <fullname>Mike Pence</fullname>
+                        </person>, has said.
+                    </policy-position>
+                    </sentence>
+                      
+                    <sentence topic="fact">
+                        <event entityID="isr" status="official" event-type="domestic"> 
+                           <entity entityID="isr" type="official">
+                               <descriptor value="0" type="entity">Arab-Israeli</descriptor>
+                               politicians
+                            <descriptor value="-1">were ejected</descriptor> 
+                           </entity> 
+                           from 
+                               <where entityID="isr" location-type="hq">the Knesset</where> 
+                               <when>
+                                   <descriptor value="0" type="time">at the start</descriptor>
+                               </when> 
+                               of 
+                              <entity entityID="usa" type="official">
+                               <person nameID="mipe" jobtitle="vpres">
+                                   <lastname>Pence’s</lastname>
+                               </person>
+                              </entity> speech
+                       <reaction type="disturbance" entityID="pal" value="-1"> for heckling.</reaction>
+                        </event>
+                </sentence>
+           </p>
+                 
+           <p>   
+                <sentence topic="statement">
+                    <statement entityID="usa">
+                        <direct-quote>
+                            <policy entityID="usa" issueID="jer">“In the weeks ahead, our administration will advance its plan to open the
+                                <entity entityID="usa" type="official"> US embassy</entity> 
+                                in 
+                                <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> – and that 
+                                <entity entityID="usa" type="official">United States embassy</entity>
+                                will open 
+                                <when>
+                                    <descriptor value="0" type="time">before the end of next year,”</descriptor> 
+                                </when>
+                            </policy>
+                        </direct-quote>
+                        <person nameID="mipe" jobtitle="vpres">he</person> said 
+                        <event entityID="isr" event-type="domestic" status="official" yyyy="2018">in a speech to roaring applause in the
+                            <entity entityID="isr" type="official"> 
+                                <descriptor value="0" type="entity">Israeli</descriptor> Knesset.
+                            </entity>
+                        </event>
+                    </statement>
+                </sentence>
+           </p>
+                
+            <p>
+                <sentence topic="fact"> 
+                    <statement entityID="usa">
+                        <event entityID="usa" status="official" event-type="diplomatic" yyyy="2018" mm="1">Speaking during a two-day visit,</event> 
+                        <person nameID="mipe" jobtitle="vpres">Pence</person> said
+                        <direct-quote>
+                            <entity entityID="usa" type="official">
+                                <person nameID="dotr" jobtitle="pres">
+                                    <fullname>Donald Trump</fullname>
+                                </person>
+                            </entity> 
+                            had
+                            <policy entityID="usa" issueID="jer">
+                                <descriptor value="1">"righted</descriptor> 
+                                a 
+                                <descriptor value="0" type="time">70-year</descriptor> 
+                                wrong” by recognising 
+                                <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where> 
+                                as  
+                                <entity entityID="isr" type="official">the capital of
+                                    <name>Israel.</name>
+                                </entity>
+                            </policy>
+                        </direct-quote>
+                    </statement>
+                </sentence>
+            </p>                
+                <p>
+                    <sentence topic="fact">
+                        <event entityID="isr" status="official" yyyy="2018" mm="1">A live-stream of the address run by the 
+                            <entity entityID="usa" type="official">
+                                <name>US embassy</name>
+                            </entity> 
+                            <reaction type="disturbance" entityID="pal" value="-1">
+                                <effect value="-1">was interrupted</effect>
+                                during the demonstration, in which 
+                                <name>legislators</name> 
+                                held signs saying: “Jerusalem is the capital of Palestine”.
+                            </reaction>
+                        </event>
+                    </sentence>
+               </p>
+
+               <p>
+                    <sentence topic="fact">
+                        <cause-effect>
+                            <cause type="policy" value="-1">
+                                <descriptor value="0">The move</descriptor>
+                            </cause> 
+                            <effect value="-1">has been condemned by the 
+                                <entity entityID="pal" type="official">
+                                    <name>Palestinians,</name>
+                                </entity><entity entityID="arb" type="official">
+                                    <name>their Arab allies,</name>
+                                </entity>
+                                and
+                                <entity entityID="inco" type="official">
+                                    <name> 
+                                        <descriptor value="1">much </descriptor>
+                                        of the broader diplomatic community,
+                                    </name>
+                                </entity> 
+                                who say
+                                <position entityID="inco" issueID="jer"> 
+                                    the status of 
+                                    <where location-type="city" entityID="pal" cityID="qds">
+                                        <descriptor value="0">the city</descriptor>
+                                    </where> should be decided in future peace negotiations.
+                                </position>
+                            </effect>
+                        </cause-effect>
+                    </sentence>
+                </p>
+                
+               <p>
+                   <sentence topic="statement">
+                       <statement entityID="usa">In a speech
+                           <descriptor value="0"> filled with biblical references,</descriptor> 
+                           <person nameID="mipe" jobtitle="vpres">
+                               <lastname>Pence</lastname>, 
+                               <descriptor value="0">an evangelical Christian</descriptor>
+                           </person>, 
+                           said
+                           <direct-quote> 
+                               <entity entityID="usa" type="official">
+                                   <name>America</name>
+                               </entity> 
+                               stood with 
+                               <entity entityID="isr" type="official">
+                                   <name>Israel</name>
+                               </entity> 
+                               “because your cause is our cause, your values are our values, your fight is our fight”.
+                           </direct-quote>
+                       </statement>
+                   </sentence>
+               </p>
+                
+                <p>
+<!--                    need to figure out if this warrants a new tag under the sentence tag-->
+                    <sentence topic="speculation">There had been speculation about when the embassy move would happen.</sentence>
+                    <sentence topic="statement"><statement entityID="usa">In <when>
+                        <date mm="12" date-type="in-text">
+                            <month>December</month>
+                        </date>
+                    </when> 
+                        <person nameID="reti" jobtitle="secr">
+                            <jobtitle>the US secretary of state, </jobtitle>
+                            <fullname>Rex Tillerson</fullname>,
+                        </person> 
+                        said it was 
+                        <event event-type="diplomatic" entityID="usa" status="official">
+                            <descriptor value="1">unlikely</descriptor> 
+                            that operations would be relocated 
+                        <when>
+                            <date date-type="in-text" yyyy="2020">
+                                before
+                                <year>2020.</year>
+                            </date>
+                        </when></event>
+                    </statement>
+                    </sentence>
+                </p>
+                
+            <p>
+                <sentence topic="statement">
+                    <statement entityID="pal">
+                        <person nameID="ayod" jobtitle="chair">
+                            <jobtitle>The chairman of the Joint Arab List alliance, </jobtitle>
+                            <fullname>Ayman Odeh,</fullname>
+                        </person>
+                        had
+                        <event entityID="isr" event-type="domestic" status="official" yyyy="2018" mm="01"> 
+                            <when>before</when> 
+                            of the speech
+                        </event> 
+                        that 
+                        <position>his group would boycott it,</position> 
+                        saying 
+                        <direct-quote>
+                            <entity entityID="usa" type="official">
+                                <person nameID="mipe" jobtitle="vpres">
+                                    <lastname>Pence</lastname>
+                                was a
+                                    <descriptor value="-1">“dangerous man with a messianic vision</descriptor>
+                                </person>
+                            </entity> 
+                            that includes the <effect value="-1">destruction of the entire region”.</effect>
+                        </direct-quote>
+                    </statement>
+                </sentence>
+            </p>
+                
+                <p><sentence topic="statement">
+                    <statement entityID="isr">
+                        <person nameID="bibi" jobtitle="pm">
+                            <jobtitle>
+                                The 
+                                <descriptor value="0" type="entity">Israeli
+                                </descriptor> prime minister, </jobtitle>
+                            <fullname>Benjamin Netanyahu, </fullname>
+                        </person>
+                        called the boycott a 
+                        <descriptor value="-1">disgrace</descriptor>, 
+                        telling 
+                        <entity entityID="isr" type="official">
+                            <name>the Knesset</name> 
+                        </entity>
+                        on 
+                        <when>
+                            <date date-type="in-text" yyyy="2018">
+                                <weekday dayOfWeek="Mon">Monday</weekday>
+                            </date>
+                        </when> 
+                        that 
+                        <policy entityID="usa" issueID="jer">
+                            <entity entityID="usa" type="official">
+                                <person nameID="dotr" jobtitle="pres">
+                                    <lastname>Trump’s</lastname>
+                                </person>
+                            </entity> 
+                            decision 
+                            <descriptor value="1">would go down as historic.</descriptor>
+                        </policy>
+                    </statement>
+                </sentence>
+                </p>
+                
+                <p>
+                    <sentence topic="statement">
+                        <statement entityID="isr">
+                            <when>Following a private meeting between the two politicians earlier on Monday, </when>
+                            <person nameID="bibi" jobtitle="pm">
+                                <lastname>Netanyahu</lastname>
+                            </person> 
+                            said: 
+                            <direct-quote>“This is the first time that I stand here where both leaders can say those three words:
+                                <entity entityID="isr" type="official"> 
+                                    <descriptor value="0" type="entity">‘Israel’s</descriptor> 
+                                    capital 
+                                </entity>
+                                <where location-type="city" entityID="pal" cityID="qds">Jerusalem'."
+                                </where>
+                            </direct-quote>
+                        </statement>
+                    </sentence>
+                </p>
+                
+            <!--the structure of the dtd, made more detailed coding of this sentence hard, particularly becuase events and policies are mentioned that are only contained in the descriptor tag, as the topic is the city, which could be contained in either a where or entity tag, both of which have limited children tags-->
+                <p>
+                    <sentence topic="fact">
+                        <policy-position option="position" entityID="pal" issueID="jer">
+                            <name>Palestinians</name>
+                            claim 
+                           <where location-type="city" entityID="pal" cityID="qds">East Jerusalem,including
+                                <descriptor value="0">the Old City</descriptor> 
+                               
+                            <descriptor value="-1" type="entity"> 
+                                 that was captured by Israeli forces in 1967 and later annexed,</descriptor>
+                           </where>  
+                            <entity entityID="pal" type="official">
+                                <descriptor value="1">as the capital of a future state</descriptor>.
+                            </entity>
+                        </policy-position>
+                    </sentence> 
+                    
+                    <sentence topic="fact">
+                        <policy-position option="position" entityID="isr" issueID="jer">
+                            <name>Israel</name> 
+                            regards all of 
+                            <where location-type="city" entityID="pal" cityID="qds">
+                                the city as its 
+                                <descriptor value="1">“eternal and undivided capital”.</descriptor>
+                            </where>
+                        </policy-position>
+                    </sentence>
+                </p>
+                
+                <p>
+                    <sentence topic="observation">
+                        <cause-effect>
+                            <cause value="-1" type="policy">
+                                <policy entityID="usa" issueID="jer">
+                                    <person nameID="dotr" jobtitle="pres">
+                                        <lastname>Trump’s</lastname>
+                                    </person> 
+                                    declaration
+                                </policy>
+                            </cause> 
+                            <effect value="-1">
+                                shocked the 
+                                <entity entityID="pal" type="official">
+                                    Palestinian leadership
+                                </entity> 
+                                which responded by 
+                                <position entityID="pal" issueID="ispa">
+                                    rejecting the 
+                                    <entity entityID="usa" type="official">
+                                        <name>US </name>
+                                        <descriptor value="1">as a peace broker,</descriptor>
+                                    </entity>
+                                    a position it had held for years,
+                                </position>
+                            </effect>
+                        </cause-effect>
+                    </sentence>
+                    
+                    <sentence topic="fact">
+                        <reaction entityID="pal" type="statement" value="-1">
+                            <person nameID="maab" jobtitle="pres">
+                                <jobtitle>President </jobtitle>
+                                <fullname>Mahmoud Abbas</fullname>
+                            </person>
+                            rescinded an invitation for 
+                            <entity entityID="usa" type="official"> 
+                               <person nameID="mipe" jobtitle="vpres">
+                                    <lastname>Pence</lastname>
+                                </person>
+                            </entity> 
+                            to visit the 
+                            <where location-type="area" entityID="pal">West Bank</where> 
+                            and called 
+                            <direct-quote>
+                                <policy entityID="usa" issueID="jer">Trump’s announcement</policy>
+                                <descriptor value="-1">a “slap in the face”.</descriptor>
+                            </direct-quote>
+                        </reaction>
+                    </sentence>
+                </p>
+                
+                <p>
+                    <sentence topic="fact">
+                        <event event-type="diplomatic" entityID="pal" status="official" yyyy="2018" mm="01">
+                            <when>While Pence spoke in Israel on Monday,</when>
+                    <person nameID="maab" jobtitle="pres">
+                        <lastname>Abbas</lastname>
+                    </person> 
+                            was in 
+                            <where location-type="hq" entityID="eu" cityID="bru">Brussels</where>
+                            where the
+                            <entity entityID="eu" type="official">
+                                <person nameID="femo" jobtitle="fpch">
+                                    <jobtitle>European Union’s foreign policy chief,</jobtitle> 
+                                    <fullname>Federica Mogherini, </fullname>
+                                </person>
+                            </entity>
+                            <position>
+                                assured him that the 
+                                <name>EU</name> 
+                                supported a solution in which two states share 
+                                <where location-type="city" entityID="pal" cityID="qds">Jerusalem</where>
+                            </position>
+                        </event>
+                    </sentence>
+                </p>
+                
+                <p>
+                    <sentence topic="fact">
+                        <statement entityID="pal">
+                            <person nameID="maab" jobtitle="pres">
+                                <lastname>Abbas</lastname>
+                            </person> 
+                            urged 
+                            <entity entityID="eu" type="official">
+                                <name>EU member nations</name>
+                            </entity> 
+                            to 
+                            <policy entityID="eu" issueID="ispa">recognise 
+                                <entity entityID="pal" type="official">
+                                    Palestine’s statehood
+                                </entity> 
+                                <descriptor value="1" type="time">immediately</descriptor>.
+                            </policy>
+                        </statement>
+                    </sentence>
+                </p>
+                
+                <p>
+                    <sentence topic="statement">
+                        <statement entityID="usa">
+                            In his speech, 
+                            <person nameID="mipe" jobtitle="vpres">
+                                <lastname>Pence</lastname>
+                            </person> called for the<entity entityID="pal" type="official">
+                                <name>Palestinian leadership</name>
+                            </entity> 
+                            <direct-quote>“to return to the table” </direct-quote>
+                            and said
+                            <position> 
+                                 <name>the US</name> 
+                                 would support a two-state solution, but only if both sides supported it.</position>
+                        </statement>
+                    </sentence>
+                </p>
+            
+        </bodytext>
+        
+        <notes>
+            <copyright yyyy="2018"> 
+                <year>2018</year>
+                <rightsholder>The Guardian</rightsholder>
+            </copyright>
+        </notes>
+    </article>
+    
+    
+    
+         
+</articles>
